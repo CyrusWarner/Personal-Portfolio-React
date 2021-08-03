@@ -1,54 +1,32 @@
-import React from 'react';
-import { Carousel, Container, Row, Col } from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
-const Projects = () => {
-    return (
-        <Container>
-            <Row>
-            <Col></Col>
-            <Col>
-        <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=First slide&bg=373940"
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
-      alt="Second slide"
-    />
+const Projects = (props) => {
+    console.log(props)
+  return (
+      <React.Fragment>
+  <Container>
+      <Row>
+          <Col sm={8}>
+              <h1 className="title">Projects</h1>
+          </Col>
+          <Col sm={4}></Col>
+      </Row>
+  </Container>
+  <Container fluid>
+      <Row>
+          {props.projectsData.map((project) => {
+              return(
+                  <React.Fragment>
+                  <h1>{project.title}</h1>
+                  </React.Fragment>
+              )
+          })}
+      </Row>
+  </Container>
+  </React.Fragment>
 
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
-      alt="Third slide"
-    />
+  )
+};
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
-</Col>
-<Col></Col>
-</Row>
-</Container>
-    )
-}
-
-export default Projects
+export default Projects;

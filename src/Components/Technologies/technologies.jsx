@@ -15,21 +15,13 @@ const Technologies = () => {
       </Container>
       <Container>
         <Row>
-          <Col sm={4}>
-            <h5 className="technology-title">Front-End</h5>
-          </Col>
-          <Col sm={4}>
-            <h5 className="technology-title">Back-End</h5>
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col sm={4}>
+          <Col sm={8}>
             <p >React</p>
+            <p>python</p>
+            <p>C#</p>
+            <p>Javascript</p>
           </Col>
           <Col sm={4}>
-            <p> Django</p>
           </Col>
         </Row>
       </Container>
