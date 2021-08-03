@@ -54,7 +54,7 @@ const ContactEmailFormModal = () => {
             placeholder="Please enter your message..."
             className="form-control"
           ></input>
-          <input type="submit" className="btn-btn-info" value="Send Email" onClick={handleClose}></input>
+          <input type="submit" className="btn btn-primary m-2" value="Send Email" onClick={handleClose}></input>
         </form>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

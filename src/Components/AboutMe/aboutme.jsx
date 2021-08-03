@@ -7,6 +7,7 @@ const AboutMe = () => {
         <Row>
             <Col sm={8}>
       {" "}
+      <p>
       Currently, I am living in Iowa. As of right now, I am currently a student
       learning programming languages. In my free time, I work on websites and I
       practice my coding skills. Becoming a software developer is what I
@@ -17,6 +18,7 @@ const AboutMe = () => {
       myself learning multiple different languages to progress throughout my
       career. I also travel throughout the country, the two places I traveled to
       recently are El Paso, Texas, and Breckenridge, Colorado.
+      </p>
       </Col>
       <Col></Col>
       </Row>
