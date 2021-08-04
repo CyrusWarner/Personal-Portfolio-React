@@ -7,7 +7,7 @@ const ContactEmailFormModal = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const sendEmail = (event) => {
-      debugger
+      console.log(event)
     event.preventDefault();
     emailjs
       .sendForm("service_3ov28jj", "template_6f00f07", event.target, "user_AUMUh4EYkrvWv50ynhpxX")

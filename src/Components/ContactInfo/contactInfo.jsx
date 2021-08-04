@@ -17,6 +17,7 @@ const ContactInfo = () => {
             <Row>
                 <Col sm={8}>
                     <ContactEmailFormModal />
+                    <div className="mt-2">Phone:</div>
                 </Col>
                 <Col sm={4}></Col>
             </Row>
