@@ -9,7 +9,7 @@ const ContactInfo = () => {
         <Container>
             <Row>
             <Col sm={8}>
-            <h1 className="title">Contact Info</h1>
+            <h1 className="title">Contact</h1>
             </Col>
             <Col sm={4}></Col>
         </Row>
