@@ -8,11 +8,27 @@ column-gap: 2rem;
 row-gap: 3rem;
 }
 
+@media (max-width: 600px){
+    .gridContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        padding-bottom: 0;
+    }
+}
+
 .customCard {
     border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+}
+
+@media (max-width: 600px) {
+    .customCard {
+        width: 100%;
+    }
+    
 }
 
 .projectImage {
