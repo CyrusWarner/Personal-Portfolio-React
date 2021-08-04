@@ -24,6 +24,12 @@ const Projects = () => {
                 <hr className="Seperate"></hr>
               </div>
               <p className="projectDescription">{description}</p>
+              <div>
+                  <ul className="utilityList">
+                      <a className="projectLinks" href={source} target="_blank">Visit</a>  
+                      {/* Add a link to functional website when websites are up */}
+                  </ul>
+              </div>
             </div>
           );
         })}
