@@ -1,0 +1,14 @@
+.phone {
+    text-decoration: none;
+}
+
+
+
+.hoverDiv {
+    transform: translate(0);
+    transition: transform 0.25s ease-out;
+}
+
+.hoverDiv:hover{
+    transform: scale(1.05)
+}
