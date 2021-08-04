@@ -6,7 +6,7 @@ import YoutubeCloneImage from '../Images/Youtube-Clone.png'
     const projects = [
     {
         id: 0,
-        title: 'Most-Wanted Project',
+        title: 'Most-Wanted',
         description: 'A project that can be used to search for "prisoners" within a data set. This project was built using Javascript, HTML, and CSS',
         image: MostWantedImage,
         source: 'https://github.com/CyrusWarner/Most-Wanted',
@@ -20,7 +20,7 @@ import YoutubeCloneImage from '../Images/Youtube-Clone.png'
     },
     {
         id: 2,
-        title: 'Trash-Collector Project',
+        title: 'Trash-Collector',
         description: 'A project built using Django for the Front-End and Back-End. Allows a user to register as an employee or register as a customer and allows for users to schedule pickups and pay using paypal api and allows users to confirm pickups ',
         image: TrashCollectorImage,
         source: 'https://github.com/Jamesburgess44/Trashcollector',
