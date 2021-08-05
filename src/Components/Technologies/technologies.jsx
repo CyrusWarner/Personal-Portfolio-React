@@ -20,12 +20,12 @@ const Technologies = () => {
         <Row>
           <Col sm={8}>
             <h6 className="mb-3">Currently I have gained experience with these technologies, but I am always looking to learn more.</h6>
-            <div className="d-flex">
-            <h6>React <FaReact size="2rem"/></h6>
-            <h6 className="ms-5">Python <FaPython size="2rem"/></h6>
-            <h6 className="ms-5">JavaScript <DiJavascript1 size="2rem" /></h6>
-            <h6 className="ms-5">C# <span class="iconify" data-icon="simple-icons:csharp" data-width="32" data-height="32"></span></h6>
-            <h6 className="ms-5">WordPress <FaWordpress size="2rem"/></h6>
+            <div className="technologyList">
+            <h6 className="technologyItem">React <FaReact size="2rem"/></h6>
+            <h6 className="technologyItem">Python <FaPython size="2rem"/></h6>
+            <h6 className="technologyItem">JavaScript <DiJavascript1 size="2rem" /></h6>
+            <h6 className="technologyItem">C# <span class="iconify" data-icon="simple-icons:csharp" data-width="32" data-height="32"></span></h6>
+            <h6 className="technologyItem">WordPress <FaWordpress size="2rem"/></h6>
             </div>
           </Col>
           <Col sm={4}>
