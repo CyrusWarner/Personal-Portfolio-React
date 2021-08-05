@@ -2,6 +2,7 @@ import FlashcardImage from '../Images/Flashcard.png'
 import MostWantedImage from '../Images/Most-Wanted.png'
 import TrashCollectorImage from '../Images/trash-collector.png'
 import YoutubeCloneImage from '../Images/Youtube-Clone.png'
+import NorthcottImage from '../Images/Northcott.png'
 
     const projects = [
     {
@@ -32,6 +33,13 @@ import YoutubeCloneImage from '../Images/Youtube-Clone.png'
         image: YoutubeCloneImage,
         source: 'https://github.com/carter-willey/Youtube-Clone-Frontend',
     },
+    {
+        id: 3,
+        title: 'Northcott Neighborhood House',
+        description: 'This is a website that I helped design multiple pages on. Personally I developed the Juneteenth and Covid Vaccine pages of this website',
+        image: NorthcottImage,
+        source: 'https://northcotthouse.org/juneteenth-2021/',
+    }
 ]
 
 export default projects

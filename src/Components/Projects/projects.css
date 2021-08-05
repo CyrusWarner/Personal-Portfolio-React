@@ -86,5 +86,6 @@ text-decoration: none;
 }
 
 .projectLinks:hover {
-    background: #801414;
+    background: #0074d9;
+    color: white;
 }
