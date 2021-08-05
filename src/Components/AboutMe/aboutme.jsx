@@ -17,7 +17,7 @@ const AboutMe = () => {
       right now, I am studying Javascript, Python, and C#. In my future I see
       myself learning multiple different languages to progress throughout my
       career. I also travel throughout the country, the two places I traveled to
-      recently are El Paso, Texas, and Breckenridge, Colorado.
+      recently are El Paso Texas, and Breckenridge Colorado.
       </p>
       </Col>
       <Col></Col>
