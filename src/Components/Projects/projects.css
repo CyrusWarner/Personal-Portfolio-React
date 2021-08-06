@@ -65,7 +65,7 @@ row-gap: 3rem;
     border: 0;
     background: #d0bb57
 }
-/* Change justify content from center to space around when adding another link */
+
 .utilityList {
     list-style-type: none;
     padding: 0;
@@ -75,7 +75,7 @@ row-gap: 3rem;
 }
 
 .projectLinks {
-    color:#d4c0c0;
+    color:white;
 font-size: 1.6rem;
 padding:0.1rem 1rem;
 background: crimson;
@@ -85,6 +85,5 @@ text-decoration: none;
 }
 
 .projectLinks:hover {
-    background: #0074d9;
     color: white;
 }

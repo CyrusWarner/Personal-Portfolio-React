@@ -22,14 +22,14 @@ import NorthcottImage from '../Images/Northcott.png'
     {
         id: 2,
         title: 'Trash-Collector',
-        description: 'A project built using Django for the Front-End and Back-End. Allows a user to register as an employee or register as a customer and allows for users to schedule pickups and pay using paypal api and allows users to confirm pickups ',
+        description: 'A project built using Django for the Front-End and Back-End. Allows a user to register as an employee or register as a customer and allows for users to schedule pickups and pay using the Paypal API and allows users to confirm pickups ',
         image: TrashCollectorImage,
         source: 'https://github.com/Jamesburgess44/Trashcollector',
     },
     {
         id: 3,
         title: 'Youtube-Clone',
-        description: 'A project built using React Front-End and Django Back-End. Allows a user to comments, reply, search for videos and displays related videos',
+        description: 'A project built using React for the Front-End and Django for the Back-End. Allows a user to add comments, replies, and search for videos',
         image: YoutubeCloneImage,
         source: 'https://github.com/carter-willey/Youtube-Clone-Frontend',
     },

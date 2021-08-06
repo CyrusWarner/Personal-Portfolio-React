@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import projects from "../../Constants/constants";
 import "./projects.css";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
@@ -26,7 +27,11 @@ const Projects = () => {
               <p className="projectDescription">{description}</p>
               <div>
                   <ul className="utilityList">
-                      <a className="projectLinks" href={source} target="_blank">Visit</a>  
+                      <motion.a 
+                      whileHover={{
+                        scale: 1.2,
+                      }}
+                      className="projectLinks" href={source} target="_blank">Visit</motion.a> 
                       {/* Add a link to functional website when websites are up */}
                   </ul>
               </div>
