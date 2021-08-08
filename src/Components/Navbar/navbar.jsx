@@ -1,10 +1,9 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import './navbar.css'
 
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-// PLAY AROUND WITH REACT SCROLL LIBRARY TOMORROW
 const Navigationbar = () => {
   return (
     <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
@@ -19,7 +18,6 @@ const Navigationbar = () => {
               to="aboutMe"
               spy={true}
               offset={-200}
-              // smooth={true}
               duration={500}
             >
               About Me
@@ -30,7 +28,6 @@ const Navigationbar = () => {
               to="technologies"
               spy={true}
               offset={-50}
-              // smooth={true}
               duration={500}
             >
               Technologies
@@ -41,7 +38,6 @@ const Navigationbar = () => {
               to="projects"
               spy={true}
               offset={-50}
-              // smooth={true}
               duration={500}
             >
               Projects
@@ -51,7 +47,6 @@ const Navigationbar = () => {
               activeClass="active"
               to="contactInfo"
               spy={true}
-              // smooth={true}
               duration={500}
             >
               Contact Me

@@ -4,6 +4,7 @@ import "./technology.css";
 import {FaReact, FaPython} from 'react-icons/fa'
 import {DiJavascript1} from 'react-icons/di'
 import {FaWordpress} from 'react-icons/fa'
+import {SiDjango} from "react-icons/si";
 import { motion } from "framer-motion";
 
 const Technologies = () => {
@@ -37,6 +38,14 @@ const Technologies = () => {
               whileHover={{scale: 1.2}}
               >
             <h6 className="technologyItem">Python <FaPython size="2rem"/></h6>
+            </motion.div>
+            <motion.div
+              drag
+              dragConstraints={{left: 0, top: 0, right: 0, bottom: 0}}
+              dragElastic={1}
+              whileHover={{scale: 1.2}}
+              >
+            <h6 className="technologyItem">Django <SiDjango size="2rem"/></h6>
             </motion.div>
             <motion.div
               drag

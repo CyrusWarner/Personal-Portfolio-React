@@ -1,8 +1,7 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import ContactEmailFormModal from '../ContactEmailFormModal/contactEmailFormModal';
 import './contactInfo.css'
-import {AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
 
 const ContactInfo = () => {
     return(
