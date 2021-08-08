@@ -1,5 +1,5 @@
 
-.gridContainer {
+.customProjectGridContainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
@@ -8,11 +8,14 @@ column-gap: 2rem;
 row-gap: 3rem;
 }
 
-@media (max-width: 600px){
-    .gridContainer {
+@media (max-width: 640px){
+    .customProjectGridContainer {
         display: flex;
         flex-direction: column;
         padding: 2rem;
+        padding-bottom: 0;
+        
+        
     }
 }
 

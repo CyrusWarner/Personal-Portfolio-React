@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const Technologies = () => {
   return (
     <React.Fragment>
-      <Container>
+      <Container id="technologies">
         <Row>
           <Col sm={8}>
             <h1 className="title ">Technologies</h1>

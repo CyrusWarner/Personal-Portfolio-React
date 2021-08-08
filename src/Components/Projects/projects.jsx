@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Projects = () => {
   return (
     <React.Fragment>
-      <Container>
+      <Container id="projects">
         <Row>
           <Col sm={8}>
             <h1 className="title">Projects</h1>
@@ -15,7 +15,7 @@ const Projects = () => {
           <Col sm={4}></Col>
         </Row>
       </Container>
-      <section className="gridContainer">
+      <section className="customProjectGridContainer">
         {projects.map(({ id, image, title, description, source }) => {
           return (
             <div className="customCard">
@@ -32,7 +32,7 @@ const Projects = () => {
                         scale: 1.2,
                       }}
                       className="projectLinks" href={source} target="_blank">Visit</motion.a> 
-                      {/* Add a link to functional website when websites are up */}
+                      
                   </ul>
               </div>
             </div>

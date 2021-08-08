@@ -2,11 +2,12 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import ContactEmailFormModal from '../ContactEmailFormModal/contactEmailFormModal';
 import './contactInfo.css'
+import {AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
 
 const ContactInfo = () => {
     return(
-        <React.Fragment>
-        <Container>
+        <div id="contactInfo">
+        <Container className="Contact">
             <Row>
             <Col sm={8}>
             <h1 className="title">Contact</h1>
@@ -23,7 +24,7 @@ const ContactInfo = () => {
                 <Col sm={4}></Col>
             </Row>
         </Container>
-        </React.Fragment>
+        </div>
     )
 }
 
