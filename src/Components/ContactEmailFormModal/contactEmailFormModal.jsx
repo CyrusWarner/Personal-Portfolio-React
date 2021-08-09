@@ -55,7 +55,7 @@ const ContactEmailFormModal = () => {
             className="form-control"
           ></input>
           <div className="d-flex justify-content-end">
-          <input type="submit" className="btn btn-primary m-2" value="Send Email" onClick={handleClose}></input>
+          <input type="submit" style={{background: "crimson", borderColor: "crimson"}} className="btn btn-primary m-2" value="Send Email" onClick={handleClose}></input>
           </div>
         </form>
         <Modal.Footer>
