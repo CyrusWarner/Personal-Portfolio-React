@@ -24,7 +24,7 @@ const ContactEmailFormModal = () => {
 
   return (
     <React.Fragment>
-      <Button variant="primary" onClick={handleShow}>
+      <Button style={{background: "crimson", borderColor: "crimson"}} onClick={handleShow}>
         Contact Me Via Email
       </Button>
 
@@ -33,7 +33,7 @@ const ContactEmailFormModal = () => {
           <Modal.Title>Contact Me Via Email</Modal.Title>
         </Modal.Header>
         <form onSubmit={sendEmail}>
-          <label className="ms-3">Name:</label>
+          <label className=" ms-3">Name:</label>
           <input
             type="text"
             name="name"

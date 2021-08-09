@@ -1,21 +1,7 @@
-.technology-title {
-    margin-bottom: 2rem;
-    display: inline-block;
-    position: relative;
-}
-
-.technology-title:after {
-    content: '';
-    height: 2px;
-    width: 100%;
-    background: black;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-}
 
 .technologyList {
     display: flex;
+    color: #f2f5f7;
     
 }
 
@@ -30,4 +16,5 @@
 
 .technologyItem {
     margin-left: 2rem;
+    color: #f2f5f7;
 }

@@ -22,7 +22,7 @@ const Projects = () => {
               <img className="projectImage" src={image}></img>
               <div className="projectTitle">
                 <h3 className="projectHeader">{title}</h3>
-                <hr className="Seperate"></hr>
+                <hr className="seperate"></hr>
               </div>
               <p className="projectDescription">{description}</p>
               <div>

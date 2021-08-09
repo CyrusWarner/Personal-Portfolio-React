@@ -6,14 +6,15 @@ import Technologies from "./Components/Technologies/technologies";
 import ContactInfo from "./Components/ContactInfo/contactInfo";
 import "./Components/Title/title.css";
 import Projects from "./Components/Projects/projects";
-// CHANGE NAVBAR TO INCLUDE A HAMBURGER MENU FOR MOBILE RESPONSIVENESS
 import "bootstrap/dist/css/bootstrap.min.css";
-
+// import ParticleBackground from "./Components/ParticlesBackground/particlesBackground";
 const App = () => {
 
   return (
     <React.Fragment>
+
       <Navigationbar />
+      {/* <ParticleBackground />   */}
       <Title />
       <AboutMe />
       <Technologies />

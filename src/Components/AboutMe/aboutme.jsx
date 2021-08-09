@@ -7,7 +7,7 @@ const AboutMe = () => {
       <Row>
         <Col sm={8}>
           {" "}
-          <p  id="aboutMe">
+          <p  style={{color: "#f2f5f7"}} id="aboutMe">
             Currently, I am living in Iowa. As of right now, I am currently a
             student learning programming languages. In my free time, I work on
             websites and I practice my coding skills. Becoming a software

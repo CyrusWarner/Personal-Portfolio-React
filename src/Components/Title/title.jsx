@@ -39,6 +39,7 @@ const Title = () => {
       <Row>
         <Col sm={8}>
           <motion.h1
+          style={{color: "#f2f5f7"}}
           className="title"
           variants={sentence}
           initial="hidden"
@@ -50,7 +51,7 @@ const Title = () => {
             )
           })}
           </motion.h1>
-          <p className="fs-4">
+          <p style={{color: "#f2f5f7"}} className="fs-4">
             I Am a Fullstack{" "}
             <span ref={textRef} className="textChange">
             </span>

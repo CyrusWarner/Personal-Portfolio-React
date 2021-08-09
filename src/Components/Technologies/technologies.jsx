@@ -13,7 +13,7 @@ const Technologies = () => {
       <Container id="technologies">
         <Row>
           <Col sm={8}>
-            <h1 className="title ">Technologies</h1>
+            <h1 className="title">Technologies</h1>
           </Col>
           <Col sm={4}></Col>
         </Row>
@@ -21,7 +21,7 @@ const Technologies = () => {
       <Container >
         <Row>
           <Col sm={8}>
-            <h6 className="mb-3">Currently I have gained experience with these technologies, but I am always looking to learn more.</h6>
+            <h6 style={{color: "#f2f5f7"}} className="mb-3">Currently I have gained experience with these technologies, but I am always looking to learn more.</h6>
             <div className="technologyList">
               <motion.div
               drag

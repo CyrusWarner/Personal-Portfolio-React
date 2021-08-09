@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.4721349b.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.ccd32a7d.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.ccd32a7d.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.60bc1379.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.60bc1379.js.map",
+    "static/css/2.4be38407.chunk.css": "/React-Portfolio/static/css/2.4be38407.chunk.css",
+    "static/js/2.37d577f6.chunk.js": "/React-Portfolio/static/js/2.37d577f6.chunk.js",
+    "static/js/2.37d577f6.chunk.js.map": "/React-Portfolio/static/js/2.37d577f6.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/React-Portfolio/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.4721349b.chunk.css.map": "/React-Portfolio/static/css/main.4721349b.chunk.css.map",
+    "static/js/2.37d577f6.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.37d577f6.chunk.js.LICENSE.txt",
+    "static/media/Flashcard.5aa27c2f.png": "/React-Portfolio/static/media/Flashcard.5aa27c2f.png",
+    "static/media/Most-Wanted.b141ad7c.png": "/React-Portfolio/static/media/Most-Wanted.b141ad7c.png",
+    "static/media/Northcott.01a795db.png": "/React-Portfolio/static/media/Northcott.01a795db.png",
+    "static/media/Youtube-Clone.15c86e67.png": "/React-Portfolio/static/media/Youtube-Clone.15c86e67.png",
+    "static/media/trash-collector.44fd2881.png": "/React-Portfolio/static/media/trash-collector.44fd2881.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60bc1379.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.37d577f6.chunk.js",
+    "static/css/main.4721349b.chunk.css",
+    "static/js/main.ccd32a7d.chunk.js"
+  ]
+}

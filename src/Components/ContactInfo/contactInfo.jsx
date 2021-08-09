@@ -18,7 +18,7 @@ const ContactInfo = () => {
             <Row>
                 <Col sm={8}>
                     <ContactEmailFormModal />
-                    <div className="hoverDiv mt-2">Phone:<a className="phone" href="tel:1-319-457-1202">1-319-457-1202</a></div>
+                    <div style={{color: "#f2f5f7"}} className="hoverDiv mt-2">Phone:<a className="phone" href="tel:1-319-457-1202">1-319-457-1202</a></div>
                 </Col>
                 <Col sm={4}></Col>
             </Row>

@@ -17,6 +17,7 @@ const Navigationbar = () => {
               activeClass="active"
               to="aboutMe"
               spy={true}
+              smooth={true}
               offset={-200}
               duration={500}
             >
@@ -27,6 +28,7 @@ const Navigationbar = () => {
               activeClass="active"
               to="technologies"
               spy={true}
+              smooth={true}
               offset={-50}
               duration={500}
             >
@@ -37,6 +39,7 @@ const Navigationbar = () => {
               activeClass="active"
               to="projects"
               spy={true}
+              smooth={true}
               offset={-50}
               duration={500}
             >
@@ -46,6 +49,7 @@ const Navigationbar = () => {
               className="scrollLinks nav-link fs-4"
               activeClass="active"
               to="contactInfo"
+              smooth={true}
               spy={true}
               duration={500}
             >
