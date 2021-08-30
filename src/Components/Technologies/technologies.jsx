@@ -20,7 +20,7 @@ const Technologies = () => {
       </Container>
       <Container >
         <Row>
-          <Col sm={8}>
+          <Col sm={10}>
             <h6 style={{color: "#f2f5f7"}} className="mb-3">Currently I have gained experience with these technologies, but I am always looking to learn more.</h6>
             <div className="technologyList">
               <motion.div
@@ -73,7 +73,7 @@ const Technologies = () => {
             </motion.div>
             </div>
           </Col>
-          <Col sm={4}>
+          <Col sm={2}>
           </Col>
         </Row>
       </Container>

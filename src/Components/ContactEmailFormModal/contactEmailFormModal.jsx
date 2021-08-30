@@ -1,6 +1,6 @@
 import emailjs from "emailjs-com";
 import React, { useState } from "react";
-import { Button, Modal } from "react-bootstrap";
+import { Button, Modal, Container } from "react-bootstrap";
 
 const ContactEmailFormModal = () => {
   const [show, setShow] = useState(false);
@@ -32,6 +32,7 @@ const ContactEmailFormModal = () => {
         <Modal.Header closeButton>
           <Modal.Title>Contact Me Via Email</Modal.Title>
         </Modal.Header>
+        <Container>
         <form onSubmit={sendEmail}>
           <label className=" ms-3">Name:</label>
           <input
@@ -58,6 +59,7 @@ const ContactEmailFormModal = () => {
           <input type="submit" style={{background: "crimson", borderColor: "crimson"}} className="btn btn-primary m-2" value="Send Email" onClick={handleClose}></input>
           </div>
         </form>
+        </Container>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close

@@ -7,14 +7,14 @@ import ContactInfo from "./Components/ContactInfo/contactInfo";
 import "./Components/Title/title.css";
 import Projects from "./Components/Projects/projects";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import ParticleBackground from "./Components/ParticlesBackground/particlesBackground";
+//import ParticleBackground from "./Components/ParticlesBackground/particlesBackground";
 const App = () => {
 
   return (
     <React.Fragment>
 
       <Navigationbar />
-      {/* <ParticleBackground />   */}
+      {/* <ParticleBackground />    */}
       <Title />
       <AboutMe />
       <Technologies />
