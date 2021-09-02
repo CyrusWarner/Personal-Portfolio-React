@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import './navbar.css'
 

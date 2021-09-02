@@ -19,7 +19,7 @@ const Projects = () => {
         {projects.map(({ id, image, title, description, source }) => {
           return (
             <div className="customCard">
-              <img className="projectImage" src={image}></img>
+              <img className="projectImage" src={image} alt=""></img>
               <div className="projectTitle">
                 <h3 className="projectHeader">{title}</h3>
                 <hr className="seperate"></hr>
