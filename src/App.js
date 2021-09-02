@@ -17,10 +17,9 @@ useEffect(() => {
   }
   window.addEventListener("resize", handleResize)
 }, [])
-console.log(width)
   return (
     <React.Fragment>
-      {width < 1024 &&
+      {width < 992 &&
       <Navigationbar width={width}/>
       }
       {/* <ParticleBackground />    */}
