@@ -7,7 +7,6 @@ import ContactInfo from "./Components/ContactInfo/contactInfo";
 import "./Components/Title/title.css";
 import Projects from "./Components/Projects/projects";
 import "bootstrap/dist/css/bootstrap.min.css";
-//import ParticleBackground from "./Components/ParticlesBackground/particlesBackground";
 const App = () => {
 const [width, setWidth] = useState([window.innerWidth]);
 
@@ -19,10 +18,7 @@ useEffect(() => {
 }, [])
   return (
     <React.Fragment>
-      {width < 992 &&
       <Navigationbar width={width}/>
-      }
-      {/* <ParticleBackground />    */}
       <Title />
       <AboutMe />
       <Technologies />

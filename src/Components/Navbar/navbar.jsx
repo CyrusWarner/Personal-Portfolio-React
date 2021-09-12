@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import './navbar.css'
 
-const Navigationbar = () => {
+const Navigationbar = ({width}) => {
   return (
     <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
       <Container className="h-100">
@@ -12,6 +12,8 @@ const Navigationbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
+            {width < 992 &&
+            <div>
           <Link
               className="scrollLinks nav-link fs-4"
               activeClass="active"
@@ -45,6 +47,8 @@ const Navigationbar = () => {
             >
               Projects
             </Link>
+            </div>
+            }
             <Link
               className="scrollLinks nav-link fs-4"
               activeClass="active"
