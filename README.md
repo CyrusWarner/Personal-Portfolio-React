@@ -1,13 +1,14 @@
 # My personal portfolio
 ## My personal portfolio created in React. Portfolio was originally created using just CSS and HTML
 
+![](src/Images/Portfolio.png)
+
 ## Table of Contents
 - [Project Status](#project-status)
    - [Goals](#goals)
    - [Task List](#task-list)
    - [Future Tasks](#future-tasks)
 - [Technologies](#technologies)
-- [Images](#Images)
 
 ---
 ## Project Status :green_circle:
@@ -58,6 +59,3 @@ BUGGED =    :warning:
 - Git / GitHub
 - HTML
 - CSS
----
-## Images
-![](src/Images/Portfolio.png)
