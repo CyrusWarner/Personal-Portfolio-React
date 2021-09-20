@@ -7,7 +7,6 @@
    - [Task List](#task-list)
    - [Future Tasks](#future-tasks)
 - [Technologies](#technologies)
-- [Bugs](#bugs)
 - [Images](#Images)
 
 ---
