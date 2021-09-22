@@ -2,14 +2,19 @@ import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-scroll";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import './navbar.css'
+import {GiHamburgerMenu} from "react-icons/gi"
+import './navbar.css';
 
 const Navigationbar = ({width}) => {
   return (
     <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
       <Container className="h-100">
         <Navbar.Brand>Cyrus The Developer</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <span>
+            <GiHamburgerMenu color="crimson" size="1.75rem"/>
+          </span>
+        </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             {width < 992 &&
