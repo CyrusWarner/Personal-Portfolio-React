@@ -4,8 +4,10 @@ import "./technology.css";
 import {FaReact, FaPython} from 'react-icons/fa'
 import {DiJavascript1} from 'react-icons/di'
 import {FaWordpress} from 'react-icons/fa'
+import {SiTypescript} from 'react-icons/si';
 import {SiDjango} from "react-icons/si";
 import { motion } from "framer-motion";
+
 
 const Technologies = () => {
   return (
@@ -30,6 +32,14 @@ const Technologies = () => {
               whileHover={{scale: 1.2}}
               >
             <h6 className="technologyItem">React <FaReact size="2rem"/></h6>
+            </motion.div>
+            <motion.div
+              drag
+              dragConstraints={{left: 0, top: 0, right: 0, bottom: 0}}
+              dragElastic={1}
+              whileHover={{scale: 1.2}}
+              >
+            <h6 className="technologyItem">React Native <FaReact size="2rem"/></h6>
             </motion.div>
             <motion.div
               drag
@@ -69,7 +79,7 @@ const Technologies = () => {
               dragElastic={1}
               whileHover={{scale: 1.2}}
               >
-            <h6 className="technologyItem">WordPress <FaWordpress size="2rem"/></h6>
+            <h6 className="technologyItem">TypeScript <SiTypescript size="2rem"/></h6>
             </motion.div>
             </div>
           </Col>

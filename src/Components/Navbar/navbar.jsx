@@ -63,10 +63,10 @@ const Navigationbar = ({width}) => {
               href="https://www.linkedin.com/in/cyrus-warner-687311215/"
               target="_blank"
             >
-              <FaLinkedin size="2rem" />
+              <FaLinkedin size="2rem" color="#0a58ca" />
             </Nav.Link>
             <Nav.Link href="https://github.com/CyrusWarner" target="_blank">
-              <FaGithub size="2rem" />
+              <FaGithub size="2rem" color="white" />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
