@@ -1,5 +1,5 @@
 # My personal portfolio
-## My personal portfolio created in React. Updated version of previous portfolio
+## My personal portfolio created in React. Updated version of previous portfolio.
 
 ![](src/Images/Portfolio.png)
 
