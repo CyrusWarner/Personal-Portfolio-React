@@ -1,13 +1,13 @@
 import emailjs from "emailjs-com";
 import React, { useState } from "react";
 import { Button, Modal, Container } from "react-bootstrap";
+import "./contactEmailFormModal.css";
 
 const ContactEmailFormModal = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const sendEmail = (event) => {
-      console.log(event)
     event.preventDefault();
     emailjs
       .sendForm("service_3ov28jj", "template_6f00f07", event.target, "user_AUMUh4EYkrvWv50ynhpxX")
@@ -23,32 +23,35 @@ const ContactEmailFormModal = () => {
   };
 
   return (
-    <React.Fragment>
+    <React.Fragment >
       <Button style={{background: "crimson", borderColor: "crimson"}} onClick={handleShow}>
         Contact Me Via Email
       </Button>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Contact Me Via Email</Modal.Title>
+        <div className="customModal">
+        <Modal.Header  closeButton>
+          <Modal.Title style={{color: "#f2f5f7"}}>Contact Me Via Email</Modal.Title>
         </Modal.Header>
         <Container>
         <form onSubmit={sendEmail}>
-          <label className=" ms-3">Name:</label>
+          <div>
+          <label style={{color: "#f2f5f7"}}>Name:</label>
           <input
             type="text"
             name="name"
             placeholder="Please enter your name..."
-            className="form-control"
+            className="form-control mb-2"
           ></input>
-          <label className="ms-3">Email:</label>
+          </div>
+          <label style={{color: "#f2f5f7"}}>Email:</label>
           <input
             type="email"
             name="email"
             placeholder="Please enter your email..."
-            className="form-control"
+            className="form-control mb-2"
           ></input>
-          <label className="ms-3">Message:</label>
+          <label style={{color: "#f2f5f7"}}>Message:</label>
           <input
             type="text"
             name="message"
@@ -65,6 +68,7 @@ const ContactEmailFormModal = () => {
             Close
           </Button>
         </Modal.Footer>
+        </div>
       </Modal>
     </React.Fragment>
   );
